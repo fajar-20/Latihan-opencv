@@ -1,0 +1,38 @@
+
+
+.form-data {
+    display: grid;
+    grid-template-columns: 120px 10px 1fr;
+    row-gap: 10px;
+    align-items: center;
+    width: 400px;
+}
+
+.form-data input {
+padding: 6px;
+}
+
+button {
+    grid-column: 1;
+    padding: 8px 12px;
+    margin-top: 20px;
+}
+
+/* Index.php */
+
+.btn-back {
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-back:hover {
+    background-color: #e0e0e0;
+}
+ 
